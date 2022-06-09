@@ -1,0 +1,192 @@
+/* FORMATAÇÃO GERAL */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+}
+
+
+/* FORMATAÇÃO DO MENU */
+header .menu-principal{
+    height: 60px;
+    background-color: #ffcc00;
+}
+header .menu-principal .container-menu{
+    max-width: 1024px;
+    margin: auto;
+    padding: 8px 0px;
+    display: flex;
+}
+header .menu-principal .container-menu .logo{
+    width: 100px;
+    height: auto;
+}
+header .menu-principal .container-menu .logo img{
+    width: 100%;
+}
+header .menu-principal .container-menu .description-logo{
+    margin: 0px 0px 0px 10px;
+}
+
+header .menu-principal .container-menu nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+header .menu-principal .container-menu nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: .9rem;
+}
+header .menu-principal .container-menu nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+header .menu-principal .container-menu nav ul li a:hover{
+    background-color: #000000;
+    color: white;
+    transition: background .5s;
+}
+
+
+header .banner{
+    height: 320px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.container-geral{
+    margin-top: 30px;
+}
+.container-artigos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: auto;
+}
+.container-artigos .artigos{
+    max-width: 600px;
+}
+.container-artigos .artigos article{
+    margin-bottom: 40px;
+    border-bottom: solid 1px #828282;
+    padding-bottom: 20px;
+}
+.container-artigos .artigos article h1{
+    margin: 0px 0px 5px 0px;
+}
+.container-artigos .artigos article h1::after{
+    content: "";
+    height: 5px;
+    width: 200px;
+    background-color: #ff0000;
+    display: block;
+    margin-top: 5px;
+}
+.container-artigos .artigos article .data{
+    color: #0000005c;
+    display: block;
+    margin-bottom: 20px;
+}
+.container-artigos .artigos article .artigo p{
+    line-height: 30px;
+    font-size: 1.2rem;
+    color: #303030;
+    margin-bottom: 10px;
+}
+
+
+/* Formatação das barras laterais 
+.lateral{
+    height: 400px;
+    width: 212px;
+}
+#lateral-esquerdo{
+    padding: 0px 40px 0px 0px;
+}
+#lc-esquerdo{
+    border: solid 1px black;
+    border-radius: 10px;
+}
+*/
+
+#lateral-direito{
+    padding: 0px 0px 0px 50px;
+    width: 424px;
+}
+#lateral-direito a{
+    text-decoration: none;
+    color: #000000;
+}
+.lateral-content{
+    display: flex;
+    border-left: solid 3px black;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: #82828223;
+}
+.lateral-content:hover, a:hover{
+    background-color: black;
+    transition: background .5s;
+    color: white;
+}
+.lateral-content a{
+    text-decoration: none;
+}
+.lateral-content #texto{
+    width: 75%;
+    padding: 0px 0px 0px 5px;
+}
+.lateral-content #imagem{
+    width: 25%;
+}
+
+.material-symbols-outlined{
+    font-family: 'Material Icons';
+    font-size: 90px;
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    height: 100px;
+}
+
+
+/***************************************************
+COLOCAR IMAGEM NAS NOVAS POSTAGENS
+1 - Copie todo o trecho de código abaixo;
+2 - Com o trecho sem estar selecionado, clique logo após o colchetes do final '}' e tecle enter;
+3 - Cole o trecho que foi copiado no passo 1;
+4 - Procure na internet a imagem que deseja usar;
+5 - Copie o link da imagem;
+6 - Dentro do trecho de código que você acabou de colar, localize o link entre os parentêses;
+7 - Dentro desse parentese, cole o link da imagem, substituindo o link atual;
+8 - localize no mesmo trecho de código recém colado, a saeguinte parte: .imagem-artigo-1;
+9 - Troque o número 1 por 2;
+****************************************************/
+.container-artigos .artigos article .imagem-artigo-1{
+    background-image: url(https://media.sketchfab.com/models/819547d911294531afa9fef0aab7e817/thumbnails/4ac2d52526d244f2ad884ae83e315ab2/b3ca88bdb2024dec8641c440f6811ef1.jpeg);
+    height: 240px;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 0px 20px 0px;
+}
