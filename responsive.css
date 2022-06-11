@@ -1,3 +1,7 @@
+.menu-secundario-mobile{
+    display: none;
+}
+
 @media screen and (max-width: 360px){
     header .menu-principal{
         padding: 10px 0px;
