@@ -55,14 +55,40 @@ header .menu-principal .container-menu nav ul li a:hover{
 }
 
 
+
+header .rolo-filme{
+    height: 30px;
+    background-color:#ff0000;
+    padding: 5px 0px;
+}
+header .rolo-filme .container-filme{
+    max-width: 1024px;
+    margin: auto;
+}
+header .rolo-filme .container-filme img{
+    width: 1024px;
+    position: relative;
+
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes move {
+    0%{left: 0px; top:0px;};
+    100%{left: 1024px; top:0px;};
+}
+
+
+
 header .banner{
-    height: 320px;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 255px;
     color: white;
 }
+header .banner img{
+    width: 100%;
+}
+
 
 
 .container-geral{
@@ -106,19 +132,11 @@ header .banner{
 }
 
 
-/* Formatação das barras laterais 
-.lateral{
-    height: 400px;
-    width: 212px;
+/* Formatação das barras laterais */ 
+.lateral-efeito{
+    max-width: 424px;
 }
-#lateral-esquerdo{
-    padding: 0px 40px 0px 0px;
-}
-#lc-esquerdo{
-    border: solid 1px black;
-    border-radius: 10px;
-}
-*/
+
 
 #lateral-direito{
     padding: 0px 0px 0px 50px;
@@ -185,8 +203,45 @@ COLOCAR IMAGEM NAS NOVAS POSTAGENS
 ****************************************************/
 .container-artigos .artigos article .imagem-artigo-1{
     background-image: url(https://media.sketchfab.com/models/819547d911294531afa9fef0aab7e817/thumbnails/4ac2d52526d244f2ad884ae83e315ab2/b3ca88bdb2024dec8641c440f6811ef1.jpeg);
+    width: 600px;
     height: 240px;
     background-position: center;
     background-size: cover;
     margin: 0px 0px 20px 0px;
+}
+
+
+
+footer{
+    height: 200px;
+    padding: 30px 0px 20px 0px;
+}
+.rodape-content{
+    max-width: 1024px;
+    margin: auto;
+}
+.footer-img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-img img{
+    width: 80%;
+}
+.footer-text{
+    max-width: 1024px;
+    margin: 10px auto;
+}
+.footer-text p{
+    color: white;
+}
+#autor{
+    font-size: .7rem;
+    text-align: center;
+    font-weight: lighter;
 }
