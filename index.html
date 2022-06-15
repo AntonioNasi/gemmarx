@@ -13,7 +13,7 @@
         <!-----------------------------------------------------
             Carrega toda a formatação do site
         ------------------------------------------------------>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
 
         <!-----------------------------------------------------
             Carrega a fonte utilizada no site
@@ -35,6 +35,7 @@
         <script>
             $(function () {
                 $('#menu').load("menu.html");
+                $('#banner').load("banner_1.html");
                 $('#lateral-direito').load("lateral.html");
                 $('#footer').load("footer.html");
             });
@@ -49,8 +50,8 @@
                 
             </div>
 
-            <div class="banner">
-                <img src="teste_banner1.png">
+            <div class="banner" id="banner">
+
             </div>
 
         </header>

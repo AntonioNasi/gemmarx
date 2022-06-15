@@ -56,34 +56,8 @@ header .menu-principal .container-menu nav ul li a:hover{
 
 
 
-header .rolo-filme{
-    height: 30px;
-    background-color:#ff0000;
-    padding: 5px 0px;
-}
-header .rolo-filme .container-filme{
-    max-width: 1024px;
-    margin: auto;
-}
-header .rolo-filme .container-filme img{
-    width: 1024px;
-    position: relative;
-
-    animation-name: move;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-@keyframes move {
-    0%{left: 0px; top:0px;};
-    100%{left: 1024px; top:0px;};
-}
-
-
-
 header .banner{
-    height: 255px;
-    color: white;
+    height: 422px;
 }
 header .banner img{
     width: 100%;
@@ -211,7 +185,9 @@ COLOCAR IMAGEM NAS NOVAS POSTAGENS
 }
 
 
-
+/* -----------------------------------------------------
+FORMATAÇÃO RODA-PÉ
+------------------------------------------------------ */
 footer{
     height: 200px;
     padding: 30px 0px 20px 0px;
@@ -244,107 +220,4 @@ footer{
     font-size: .7rem;
     text-align: center;
     font-weight: lighter;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* -----------------------------------------------------
-FORMATAÇÃO PARA DISPOSITIVOS MENORES
------------------------------------------------------- */
-
-.menu-secundario-mobile{
-    display: none;
-}
-
-@media screen and (max-width: 360px){
-    header .menu-principal{
-        padding: 10px 0px;
-        height: auto;
-    }
-    header .menu-principal .container-menu{
-        display: none;
-    }
-
-
-
-
-    /* Formatação do menu mobile */
-    .menu-secundario-mobile{
-        display: flex;
-        place-content: center;
-    }
-    @media screen and (min-width:600px){
-        .menu-secundario-mobile{
-            display: none;
-        }
-    }
-    .menu-secundario-mobile .item{
-        margin: 5px 0px;
-        padding: 0px 10px;
-        text-align: center;
-    }
-    .flexDiv {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0px 0px;
-    }
-    .selectWrapper {
-        max-width: 600px;
-        position: relative;
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 100ms linear 0s;
-    }
-    .multiSelect {
-        box-sizing: border-box;
-        position: absolute;
-        max-width: 600px;
-        left: 0px;
-        right: 0;
-        background: white;
-        color: #2b4162;
-        transition: transform 300ms ease-in-out 0s, clip-path 300ms ease-in-out 0s;
-        border-bottom: solid 1px #2b4162;
-        color: #2b4162;
-    }
-    
-    button {
-        width: 100%;
-        border: none;
-        outline: none;
-        padding: 8px 0px;
-        cursor: pointer;
-        color: black;
-        background-color: transparent;
-    }
-    .menu-secundario-mobile button span{
-        font-size: 3rem;
-    }
-
-
-
-    header .banner{
-        height: auto;
-    }
-
-
-
-    .container-artigos .artigos{
-        max-width: 360px;
-        padding: 0px 15px;
-    }
-
-    .container-artigos .artigos article .imagem-artigo-1{
-        width: 340px;
-        height: 240px;
-    }
 }
