@@ -162,6 +162,9 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 1024px
     .container-artigos .artigos article .imagem-artigo-1{
         max-width: 626px;
     }
+    .artigo{
+        margin: 20px 0px;
+    }
 
     /* Formatação da lateral */
     .lateral-efeito{
