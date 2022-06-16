@@ -68,6 +68,18 @@ button img{
 
 
 
+
+/* -----------------------------------------------------
+FORMATAÇÃO PARA DISPOSITIVOS ATÉ 1920px
+------------------------------------------------------ */
+
+/* -----------------------------------------------------
+FORMATAÇÃO PARA DISPOSITIVOS ATÉ 1816px
+------------------------------------------------------ */
+
+
+
+
 /* -----------------------------------------------------
 FORMATAÇÃO PARA DISPOSITIVOS ATÉ 1440px
 ------------------------------------------------------ */
@@ -113,6 +125,13 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 1440px
         font-size: 70px;
     }
 }
+
+
+
+
+/* -----------------------------------------------------
+FORMATAÇÃO PARA DISPOSITIVOS ATÉ 1280px
+------------------------------------------------------ */
 
 
 
@@ -224,6 +243,62 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 768px
 
 
 
+/* -----------------------------------------------------
+FORMATAÇÃO PARA DISPOSITIVOS ATÉ 601px
+------------------------------------------------------ */
+@media screen and (max-width: 600px){
+    .menu-secundario-mobile button span{
+        font-size: 2.1rem;
+    }
+    button img{
+        width: 11%;
+    }
+    header .menu-principal{
+        padding: 10px 0px;
+        height: 45px;
+    }
+    header .menu-principal .container-menu{
+        display: none;
+    }
+
+    /* Formatação do banner */
+    header .banner{
+        height: 190px;
+    }
+
+
+    /* Formatação dos artigos */
+    .container-artigos .artigos{
+        max-width: 600px;
+        padding: 0px 15px;
+        margin: auto;
+    }
+
+    .container-artigos .artigos article .imagem-artigo-1{
+        width: 570px;
+        height: 240px;
+        margin: auto;
+    }
+    .artigo{
+        margin: 20px 0px;
+    }
+
+
+    /* Formatação da lateral */
+    .lateral-efeito{
+        max-width: 600px;
+        margin: auto;
+    }
+    #lateral-direito{
+        padding: 0px 10px 0px 15px;
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+
+
+
 
 /* -----------------------------------------------------
 FORMATAÇÃO PARA DISPOSITIVOS ATÉ 425px
@@ -268,12 +343,69 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 425px
 
     /* Formatação da lateral */
     .lateral-efeito{
-        max-width: 768px;
+        max-width: 425px;
         margin: auto;
     }
     #lateral-direito{
         padding: 0px 10px 0px 15px;
-        max-width: 768px;
+        max-width: 425px;
+        margin: auto;
+    }
+}
+
+
+
+
+
+/* -----------------------------------------------------
+FORMATAÇÃO PARA DISPOSITIVOS ATÉ 414px
+------------------------------------------------------ */
+@media screen and (max-width: 414px){
+    .menu-secundario-mobile button span{
+        font-size: 2.1rem;
+    }
+    button img{
+        width: 11%;
+    }
+    header .menu-principal{
+        padding: 10px 0px;
+        height: 45px;
+    }
+    header .menu-principal .container-menu{
+        display: none;
+    }
+
+    /* Formatação do banner */
+    header .banner{
+        height: 120px;
+    }
+
+
+    /* Formatação dos artigos */
+    .container-artigos .artigos{
+        max-width: 414px;
+        padding: 0px 15px;
+        margin: auto;
+    }
+
+    .container-artigos .artigos article .imagem-artigo-1{
+        width: 380px;
+        height: 240px;
+        margin: auto;
+    }
+    .artigo{
+        margin: 20px 0px;
+    }
+
+
+    /* Formatação da lateral */
+    .lateral-efeito{
+        max-width: 414px;
+        margin: auto;
+    }
+    #lateral-direito{
+        padding: 0px 10px 0px 15px;
+        max-width: 414px;
         margin: auto;
     }
 }
@@ -327,13 +459,82 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 375px
 
     /* Formatação da lateral */
     .lateral-efeito{
-        max-width: 768px;
+        max-width: 375px;
         margin: auto;
     }
     #lateral-direito{
         padding: 0px 10px 0px 15px;
-        max-width: 768px;
+        max-width: 375px;
         margin: auto;
+    }
+}
+
+
+
+
+
+
+/* -----------------------------------------------------
+FORMATAÇÃO PARA DISPOSITIVOS ATÉ 360px
+------------------------------------------------------ */
+@media screen and (max-width: 360px){
+    .menu-secundario-mobile button span{
+        font-size: 1.8rem;
+    }
+    button img{
+        width: 14%;
+    }
+    header .menu-principal{
+        padding: 10px 0px;
+        height: 40px;
+    }
+    header .menu-principal .container-menu{
+        display: none;
+    }
+
+    /* Formatação do banner */
+    header .banner{
+        height: 100px;
+    }
+
+
+    /* Formatação dos artigos */
+    .container-geral{
+        padding: 0px 15px;
+    }
+    .container-artigos .artigos{
+        max-width: 360px;
+        padding: 0px;
+    }
+
+    .container-artigos .artigos article .imagem-artigo-1{
+        max-width: 330px;
+        margin: auto;
+    }
+    .artigo{
+        margin: 20px 0px;
+    }
+
+
+    /* Formatação da lateral */
+    .lateral-efeito{
+        max-width: 360px;
+        margin: auto;
+    }
+    #lateral-direito{
+        padding: 0px 10px 0px 0px;
+        max-width: 360px;
+        margin: auto;
+    }
+
+
+    footer{
+        height: 200px;
+        padding: 20px 15px;
+    }
+    .footer-text p{
+        color: white;
+        text-align: center;
     }
 }
 
