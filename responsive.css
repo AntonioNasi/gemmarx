@@ -104,8 +104,7 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 1440px
     }
 
     .container-artigos .artigos article .imagem-artigo-1{
-        width: 626px;
-        height: 240px;
+        max-width: 626px;
     }
 
     /* Formatação da lateral */
@@ -161,8 +160,7 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 1024px
     }
 
     .container-artigos .artigos article .imagem-artigo-1{
-        width: 626px;
-        height: 240px;
+        max-width: 626px;
     }
 
     /* Formatação da lateral */
@@ -219,8 +217,7 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 768px
     }
 
     .container-artigos .artigos article .imagem-artigo-1{
-        width: 740px;
-        height: 240px;
+        max-width: 740px;
         margin: auto;
     }
     .artigo{
@@ -275,8 +272,7 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 601px
     }
 
     .container-artigos .artigos article .imagem-artigo-1{
-        width: 570px;
-        height: 240px;
+        max-width: 570px;
         margin: auto;
     }
     .artigo{
@@ -332,8 +328,7 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 425px
     }
 
     .container-artigos .artigos article .imagem-artigo-1{
-        width: 400px;
-        height: 240px;
+        max-width: 400px;
         margin: auto;
     }
     .artigo{
@@ -389,8 +384,7 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 414px
     }
 
     .container-artigos .artigos article .imagem-artigo-1{
-        width: 380px;
-        height: 240px;
+        max-width: 380px;
         margin: auto;
     }
     .artigo{
@@ -448,8 +442,7 @@ FORMATAÇÃO PARA DISPOSITIVOS ATÉ 375px
     }
 
     .container-artigos .artigos article .imagem-artigo-1{
-        width: 345px;
-        height: 240px;
+        max-width: 345px;
         margin: auto;
     }
     .artigo{
