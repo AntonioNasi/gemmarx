@@ -8,6 +8,15 @@ body{
     font-family: 'Roboto Slab', serif;
     font-size: 1rem;
 }
+body h1{
+    font-size: 2rem;
+}
+body h2{
+    font-size: 1.5rem;
+}
+body h3{
+    font-size: 1rem;
+}
 
 
 /* FORMATAÇÃO DO MENU */
@@ -83,7 +92,13 @@ header .banner img{
     padding-bottom: 20px;
 }
 .container-artigos .artigos article h1{
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 20px 0px;
+}
+.container-artigos .artigos article h2{
+    margin: 20px 0px 0px 0px;
+}
+.container-artigos .artigos article h3{
+    margin: 20px 0px 0px 0px;
 }
 .container-artigos .artigos article h1::after{
     content: "";
@@ -105,11 +120,22 @@ header .banner img{
 .container-artigos .artigos article .imagem-artigo-1 img{
     width: 100%;
 }
+.container-artigos .artigos article .artigo{
+    text-align: justify;
+}
 .container-artigos .artigos article .artigo p{
     line-height: 30px;
     font-size: 1.2rem;
     color: #303030;
     margin-bottom: 10px;
+}
+.container-artigos .artigos article .artigo ul{
+    margin: 20px 0px 0px 0px;
+}
+.container-artigos .artigos article .artigo ul li{
+    list-style:inside;
+    margin: 5px 0px;
+    font-size: 19px;
 }
 
 
