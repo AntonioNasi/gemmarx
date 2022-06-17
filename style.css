@@ -115,10 +115,11 @@ header .banner img{
 }
 .container-artigos .artigos article .imagem-artigo-1{
     width: 100%;
-    object-fit: cover;
 }
 .container-artigos .artigos article .imagem-artigo-1 img{
     width: 100%;
+    height: 280px;
+    object-fit: cover;
 }
 .container-artigos .artigos article .artigo{
     text-align: justify;
@@ -137,6 +138,19 @@ header .banner img{
     margin: 5px 0px;
     font-size: 19px;
 }
+/* Configurações só da agenda */
+.aganda-lista{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.224);
+    padding: 20px 0px 0px 0px;
+}
+.aganda-lista a{
+    text-decoration: none;
+}
+.aganda-lista a:hover{
+    background-color: #ff0000;
+    color: #000000;
+}
+
 
 
 /* Formatação das barras laterais */ 
